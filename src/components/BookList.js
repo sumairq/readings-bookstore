@@ -5,14 +5,17 @@ import InputBook from './InputBook';
 
 const BookList = () => {
   const books = useSelector((state) => state.books);
+
   return (
+
     <div>
       {books.map((book) => (
         <Book
-          title={book.title}
-          author={book.author}
-          key={book.id}
-          id={book.id}
+          title={book.title.name}
+          author={book.title.author}
+          category={book.category}
+          key={book.item_id}
+          id={book.item_id}
         />
       ))}
       <div>
