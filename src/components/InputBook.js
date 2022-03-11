@@ -29,6 +29,11 @@ const InputBook = () => {
 
     // dispatch an action and pass it the newBook object (your action's payload)
     dispatch(addBooksToApi(newBook));
+    setBook({
+      title: '',
+      author: '',
+      category: 'Fiction',
+    });
   };
 
   return (
