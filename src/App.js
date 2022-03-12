@@ -1,17 +1,17 @@
 import { Route, Routes } from 'react-router-dom';
 import BooksPage from './pages/BooksPage';
+import Header from './components/Header';
 import CategoriesPage from './pages/CategoriesPage';
-import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
+      <Header />
       <Routes>
         <Route path="/" element={<BooksPage />} />
         <Route path="/categories" element={<CategoriesPage />} />
       </Routes>
-
-    </div>
+    </>
   );
 }
 
