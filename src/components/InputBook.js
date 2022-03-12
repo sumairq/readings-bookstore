@@ -38,27 +38,35 @@ const InputBook = () => {
 
   return (
     <form onSubmit={submitBookToStore}>
-      <input
-        type="text"
-        placeholder="Title"
-        name="title"
-        value={book.title}
-        onChange={onChange}
-      />
-      <input
-        type="text"
-        placeholder="Author Name"
-        name="author"
-        value={book.author}
-        onChange={onChange}
-      />
-      <select name="category" id="category" value={book.category} onChange={onChange}>
-        <option value="Fiction">Fiction</option>
-        <option value="Mystery">Mystery</option>
-        <option value="Non-Fiction">Non-Fiction</option>
-        <option value="Science">Science</option>
-      </select>
-      <button type="submit">Submit</button>
+      <label htmlFor="book-title">
+        <input
+          type="text"
+          placeholder="Title"
+          id="book-title"
+          name="title"
+          value={book.title}
+          onChange={onChange}
+        />
+      </label>
+      <label htmlFor="book-author">
+        <input
+          type="text"
+          placeholder="Author Name"
+          id="book-author"
+          name="author"
+          value={book.author}
+          onChange={onChange}
+        />
+      </label>
+      <label htmlFor="select-category" className="select-container">
+        <select name="category" id="category" value={book.category} onChange={onChange}>
+          <option value="Fiction">Fiction</option>
+          <option value="Mystery">Mystery</option>
+          <option value="Non-Fiction">Non-Fiction</option>
+          <option value="Science">Science</option>
+        </select>
+      </label>
+      <button className="add-book" type="submit">ADD BOOK</button>
     </form>
   );
 };
