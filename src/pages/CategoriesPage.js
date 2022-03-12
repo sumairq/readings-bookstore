@@ -1,13 +1,9 @@
 import React from 'react';
-import Header from '../components/Header';
 
 const Categories = () => (
-  <div>
-    <Header />
-    <section>
-      Under construction
-    </section>
-  </div>
+  <main>
+    <h1>Under Construction...</h1>
+  </main>
 );
 
 export default Categories;

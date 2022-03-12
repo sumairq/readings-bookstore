@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import Header from '../components/Header';
 import { fetchBooks } from '../redux/books/books';
 
 import BookList from '../components/BookList';
@@ -11,12 +10,11 @@ const Books = () => {
     dispatch(fetchBooks());
   });
   return (
-    <div>
-      <Header />
+    <main>
       <section>
         <BookList />
       </section>
-    </div>
+    </main>
   );
 };
 
