@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="./logo-bookstore.png" alt="logo" width="140"  height="auto" />
+  <img src="./logo-bookstore.png" alt="logo" width="280"  height="auto" />
   <br/>
 
 </div>
