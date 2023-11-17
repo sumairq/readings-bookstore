@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<BooksPage />} />
         <Route path="/categories" element={<CategoriesPage />} />
       </Routes>
