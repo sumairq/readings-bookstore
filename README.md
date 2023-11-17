@@ -1,58 +1,154 @@
-git ![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Bookstore App
-
-> This is the repository for the Bookstore application. This project is bootstrapped using the create-react-app. It uses react redux for state storage.
-
-## Built With
-React.js
-Redux
-JavScript
-HTML
-CSS
+<a name="readme-top"></a>
 
 
-## To Setup the project locally
+<div align="center">
+  <img src="./logo-bookstore.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-Just go ahead and clone the repository using the following link.
+</div>
 
-[Clone from this link!](https://github.com/sumairq/bookstore-react.git) 
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts for setting up the project locally
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-### `npm start`
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+# 📖 Readings Bookstore <a name="about-project"></a>
 
-### `npm test`
-Launches the test runner in the interactive watch mode.\
+**Readings Bookstore** is an application that displays a convenient UI for users enabling them to add and remove their favorite books to a sleek dashboard.
 
-### `npm run build`
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the `build` for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The `build` is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Redux</a></li>
+    <li><a href="https://reactjs.org/">SASS</a></li>
+  </ul>
+</details>
 
-## Author
+<!-- Features -->
 
-👤 **Sumair Qaisar Jadoon**
+### Key Features <a name="key-features"></a>
 
-- GitHub: [@sumairq](https://github.com/sumairq)
-- Twitter: [@sumair_qaisar](https://twitter.com/sumair_qaisar)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sumair-qaisar-jadoon-84a877164)
+- **Book List page**
+- **Add Book form**
+- **API Integration**
+- **State Management with Redux**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Node version greater than `16.15.1`
 
 
-## 🤝 Contributing
+### Setup
+
+Clone this repository to your desired folder:
+
+
+
+```sh
+  cd my-folder
+  git clone https://github.com/sumairq/readings-bookstore.git
+```
+
+### Install
+
+Install this project with:
+
+
+```sh
+  cd readings-bookstore
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
+
+👤 **Sumair**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Authentication**
+- [ ] **Categories Page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give it a ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
