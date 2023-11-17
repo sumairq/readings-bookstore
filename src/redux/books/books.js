@@ -49,8 +49,8 @@ export const fetchBooks = () => {
         const mappedData = Object.entries(data).map(([key, value]) => ({
           item_id: key,
           title: {
-            name: value[0].title.name,
-            author: value[0].title.author,
+            name: value[0].title,
+            author: value[0].author,
           },
           category: value[0].category,
         }));
